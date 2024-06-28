@@ -1,0 +1,24 @@
+{
+  "name": "week-10-postgresql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayuresh-byte/week-10-postgreSQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayuresh-byte/week-10-postgreSQL/issues"
+  },
+  "homepage": "https://github.com/mayuresh-byte/week-10-postgreSQL#readme",
+  "dependencies": {
+    "@types/pg": "^8.11.6",
+    "pg": "^8.12.0"
+  }
+}
