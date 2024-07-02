@@ -48,5 +48,5 @@ async function deleteUser(username: string) {
 
 insertUser("AAI2", "123456", "harkirat", "singh");
 // updateUser("admin1", {firstName: "Admin11", lastName: "singh" });
-getUsers();
+// getUsers();
 // deleteUser('Mayuresh1');
