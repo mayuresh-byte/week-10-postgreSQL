@@ -6,6 +6,8 @@ interface UpdateParams {
     lastName: string;
 }
 
+// When we are providing errornous data and trying to insert it into the DB then its failing but Id is incrementing. We can handle this by
+// Handling erros properly. Following code is just for learning purpose.
 async function insertUser(username: string, password: string, firstName: string, lastName: string) {
     try {
         const res = await prisma.user.create({
